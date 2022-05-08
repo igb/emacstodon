@@ -26,7 +26,7 @@ The Emacstodon extension is going to need credentials in order to post Toots as 
 
   * Give your app a name and make sure it has *write* permissions.
   
-  * After you have created and saved your app, copy the access token value.
+  * After you have created and saved your app, copy the access token value. You will also need the hostname of your Mastodon instance.
   
   * On your local machine, create a *.emacstodon* file in your home directory (*~/*) and enter the information generated above in the following format/order:
 
@@ -40,17 +40,17 @@ Your values will differ, obviously, but make sure the property names are the sam
 
 Ok, now you are good to go. Just launch or restart Emacs!
 
-## How to Tweet
+## How to Toot
 
-**TL;DR:** *M-x tweet*
+**TL;DR:** *M-x toot*
 
 ### Details ###
 1. Open a new buffer or file.
-2. Type or enter the Tweet content into the buffer.
-3. *M-x tweet* will then, if the buffer length is 140 characters or less, send your Tweet.
-4. Look for the message *"Tweeted!"* to confirm your Tweet was successfully sent.
+2. Type or enter the Toot content into the buffer.
+3. *M-x toot* will then, if the buffer length is 500 characters or less, send your Toot.
+4. Look for the message *"Tooted!"* to confirm your Toot was successfully sent.
 5. If an error occurred the error message will be displayed in the Message minibuffer.
 
 ## Questions? ##
 
-You can always contact me with any questions at [@igb](https://twitter.com/igb).
+You can always contact me with any questions at [@igb@mastodon.hccp.org](https://mastodon.hccp.org/igb).
