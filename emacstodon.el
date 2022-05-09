@@ -13,7 +13,7 @@
    )
 
 
-(defun read-creds ()
+(defun read-mastodon-creds ()
   "Read auth tokens from local file"
   (if (file-exists-p "~/.emacstodon")
       (read-creds-from-emacstodon)
@@ -37,7 +37,7 @@
 
 
 (defun send-toot(toot-body)
-  (read-creds)
+  (read-mastodon-creds)
 
   (setq status (concat "status=" (escape-uri toot-body)))
 
