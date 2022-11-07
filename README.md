@@ -1,6 +1,6 @@
 # Emacstodon
 
-Emacstodon is an Elisp extension for the [Emacs](https://www.gnu.org/software/emacs/) text editor that enables a user to posty (or "toot") the contents of a given buffer to a [Mastodon](https://joinmastodon.org) instance.
+Emacstodon is an Elisp extension for the [Emacs](https://www.gnu.org/software/emacs/) text editor that enables a user to post (or "toot") the contents of a given buffer to a [Mastodon](https://joinmastodon.org) instance.
 
 ## Installation Instructions
 
